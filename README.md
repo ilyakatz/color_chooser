@@ -1,5 +1,7 @@
 # Set it up
 
+`git clone git@bitbucket.org:katzmopolitan/color-chooser.git`
+
 `gem install bundler`
 
 `bundle install`
