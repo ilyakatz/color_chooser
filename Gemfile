@@ -38,19 +38,9 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'steak'
-  gem 'launchy'
-  gem 'factory_girl_rails', '~> 4.0'
-
-  gem 'pry'
-  gem 'pry-debugger'
 end
 
 group :development do
-  gem 'guard-livereload'
-  gem 'rack-livereload'
   gem 'foreman'
   gem 'quiet_assets'
 end
-
-gem 'rails-rename', '~> 1.0.0'
