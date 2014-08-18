@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>RailsTemplate</title>
+
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+
+  <%= stylesheet_link_tag  "application" %>
+  <%= csrf_meta_tags %>
+
+  <!-- script src="js/vendor/custom.modernizr.js"></script -->
+
+</head>
+<body>
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
+  <script>
+  </script>
+</body>
+</html>
